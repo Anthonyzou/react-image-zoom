@@ -12,7 +12,7 @@ export default class ImageViewZoom extends Component {
         <ScrollView
           maximumZoomScale={this.props.maximumZoomScale}
           minimumZoomScale={this.props.minimumZoomScale}
-          contentContainerStyle={{ alignItems:'center', justifyContent:'center'}}>
+          centerContent
           <Image {...this.props}/>
         </ScrollView>
       </View>
